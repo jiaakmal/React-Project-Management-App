@@ -1,6 +1,7 @@
 import React from 'react'
 import Input from './Input'
 
+
 export default function NewProject() {
   return (
     <div className='w-[35rem] mt-16'>
