@@ -1,5 +1,6 @@
 import { data } from "autoprefixer";
 import React from "react";
+import Task from "./Task";
 
 export default function SelectedProject({project , onDelete}) {
 
@@ -19,6 +20,9 @@ export default function SelectedProject({project , onDelete}) {
         <p className="mb-4 text-stone-400">{formattedDate}</p>
         <p className="text-stone-600 whitespace-pre-wrap">{project.description}</p>
       </header>
+      <Task>
+        
+      </Task>
     </div>
   );
 }
